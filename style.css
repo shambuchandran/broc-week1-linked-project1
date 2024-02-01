@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: rgb(241, 241, 241);
+    width: 100vw;
+    height: 100vh;
+
+}
+
+nav {
+    width: 100vw;
+    margin: auto;
+    height: 8vh;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.main .image {
+    width: 135px;
+    padding-left: 12vw;
+}
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: lighter;
+}
+
+.box {
+    margin: auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    width: 25vw;
+    min-width: 200px;
+    height: 60vh;
+    min-height: 500px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 30px;
+    background-color: white;
+}
+
+
+label {
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 5px;
+}
+
+#email {
+    position: relative;
+    padding: 4px;
+    display: flex;
+    justify-content: flex-start;
+    width: 25vw;
+    min-width: 180px;
+    height: 35px;
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 5px;
+    margin: 0px 10px 15px 0px;
+}
+
+#password {
+    position: relative;
+    padding: 4px;
+    display: flex;
+    width: 25vw;
+    min-width: 180px;
+    height: 35px;
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 5px;
+    margin: 0px 10px 15px 0px;
+}
+
+.agree {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+
+#Signin {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25vw;
+    min-width: 180px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 0px 10px 15px 0px;
+    background-color: RGB(10, 102, 194);
+    color: white;
+    font-weight: bold;
+}
+
+.box .a {
+    text-decoration: none;
+}
+
+.or {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    padding-bottom: 20px;
+}
+
+hr {
+    width: 25vw;
+    min-width: 100px;
+}
+
+.allbutton {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#but1 {
+    background-image: url(images/Google_Icons-09-512.webp);
+    background-repeat: no-repeat;
+    background-size: 30px;
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 25px;
+    background-color: white;
+    width: 20vw;
+    min-width: 180px;
+    height: 30px;
+    font-size: 14px;
+
+}
+
+#but2 {
+    background-image: url(images/152752.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 25px;
+    background-color: white;
+    width: 20vw;
+    min-width: 180px;
+    height: 30px;
+    font-size: 14px;
+    /* font-weight: bolder; */
+
+}
+
+#but3 {
+    background-image: url(images/95-512.webp);
+    background-repeat: no-repeat;
+    background-position: 5px;
+    background-size: 20px;
+    border: 1px solid rgb(136, 134, 134);
+    border-radius: 25px;
+    background-color: white;
+    width: 20vw;
+    min-width: 180px;
+    height: 30px;
+    font-size: 14px;
+    /* font-weight: bolder; */
+}
+
+.last {
+    position: relative;
+    display: flex;
+    height: 20px;
+    min-width: 180px;
+    margin: auto;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.last a {
+    text-decoration: none;
+}
+
+.gethelp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 20px;
+    font-size: 15px;
+    min-width: 180px;
+    gap: 5px;
+}
+
+.gethelp a {
+    text-decoration: none;
+    color: RGB(10, 102, 194);
+    font-weight: 500;
+}
+
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    color: rgb(38, 38, 38);
+    background-color: white;
+    height: 10vh;
+    width: 100vw;
+    word-spacing: 10px;
+}
+
+.foot a {
+    text-decoration: none;
+    color: rgb(136, 134, 134);
+    padding-left: 15px;
+
+}
+
+.foot :hover {
+    color: rgb(33, 33, 246);
+}
+
+.foot img {
+    width: 55px;
+    height: 15px;
+}
+
+#language {
+    font-size: 15px;
+}
+
+.option {
+    border-color: white;
+    font-size: 13px;
+}
